@@ -98,3 +98,59 @@ aside {
 .proj-title {
     margin-bottom: 10px;
 }
+
+
+@media (max-width:1200px) {
+    .container {
+        display: block;
+    }
+
+
+    aside {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        padding-top: 20px;
+
+    }
+    .prof-pic{
+        width: 140px;
+        height: 140px;
+    }
+    .prof-pic-img{
+        width: 170px;
+        height: 160px;
+    }
+}
+
+@media (max-width:800px) {
+    .contacts{
+        width: 300px;
+    }
+    .education{
+        width: 200px;
+    }
+    .skills{
+        width: 200px;
+    }
+    .instances{
+    width: 300px;
+
+    }
+   .code{
+    width: 300px;
+    height: 180px;
+   }
+}
+
+@media (max-width:600px) {
+ 
+    .contacts{
+        margin-bottom: 30px;
+    }
+    .skills{
+        margin-bottom: 30px;
+    }
+}
