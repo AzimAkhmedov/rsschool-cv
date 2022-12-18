@@ -99,6 +99,17 @@ aside {
     margin-bottom: 10px;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+.course{
+    width: 200px;
+    height: 200px;
+}
+
 
 @media (max-width:1200px) {
     .container {
@@ -110,47 +121,55 @@ aside {
         margin-bottom: 40px;
         width: 100%;
     }
-    main{
+
+    main {
         width: 100%;
         padding-top: 20px;
 
     }
-    .prof-pic{
+
+    .prof-pic {
         width: 140px;
         height: 140px;
     }
-    .prof-pic-img{
+
+    .prof-pic-img {
         width: 170px;
         height: 160px;
     }
 }
 
 @media (max-width:800px) {
-    .contacts{
+    .contacts {
         width: 300px;
     }
-    .education{
+
+    .education {
         width: 200px;
     }
-    .skills{
+
+    .skills {
         width: 200px;
     }
-    .instances{
-    width: 300px;
+
+    .instances {
+        width: 300px;
 
     }
-   .code{
-    width: 300px;
-    height: 180px;
-   }
+
+    .code {
+        width: 300px;
+        height: 180px;
+    }
 }
 
 @media (max-width:600px) {
- 
-    .contacts{
+
+    .contacts {
         margin-bottom: 30px;
     }
-    .skills{
+
+    .skills {
         margin-bottom: 30px;
     }
 }
